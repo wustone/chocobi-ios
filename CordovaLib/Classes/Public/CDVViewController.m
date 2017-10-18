@@ -28,6 +28,7 @@
 #import "CDVLocalStorage.h"
 #import "CDVCommandDelegateImpl.h"
 #import <Foundation/NSCharacterSet.h>
+#import <ObjectiveGit/ObjectiveGit.h>
 
 @interface CDVViewController () {
     NSInteger _userAgentLockToken;
