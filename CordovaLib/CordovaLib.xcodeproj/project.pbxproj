@@ -87,6 +87,8 @@
 		C0C01ECE1E39131A0056E6CB /* NSDictionary+CordovaPreferences.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED95D311AB9029B008C4574 /* NSDictionary+CordovaPreferences.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C01ECF1E39131A0056E6CB /* NSMutableArray+QueueAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED95D331AB9029B008C4574 /* NSMutableArray+QueueAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C01ED01E3913610056E6CB /* CDVUIWebViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED95CFE1AB9028C008C4574 /* CDVUIWebViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD0B19A71F98804000C4EEC8 /* ObjectiveGit.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD0B19A61F98804000C4EEC8 /* ObjectiveGit.framework.dSYM */; };
+		FD0B19A91F98805600C4EEC8 /* ObjectiveGit.framework.dSYM in CopyFiles */ = {isa = PBXBuildFile; fileRef = FD0B19A61F98804000C4EEC8 /* ObjectiveGit.framework.dSYM */; };
 		FDAD963F1F98452C003AB6E7 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAD963E1F98452C003AB6E7 /* ObjectiveGit.framework */; };
 		FDAD96401F9846BC003AB6E7 /* ObjectiveGit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDAD963E1F98452C003AB6E7 /* ObjectiveGit.framework */; };
 /* End PBXBuildFile section */
@@ -102,12 +104,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		FD0B19A81F98804F00C4EEC8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				FD0B19A91F98805600C4EEC8 /* ObjectiveGit.framework.dSYM in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD55EBB81F8E199200CC667D /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				FD0B19A71F98804000C4EEC8 /* ObjectiveGit.framework.dSYM in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +189,7 @@
 		C0C01EB21E3911D50056E6CB /* Cordova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cordova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C01EB41E3911D50056E6CB /* Cordova.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cordova.h; sourceTree = "<group>"; };
 		C0C01EB51E3911D50056E6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0B19A61F98804000C4EEC8 /* ObjectiveGit.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = ObjectiveGit.framework.dSYM; path = Libs/ObjectiveGit/iOS/ObjectiveGit.framework.dSYM; sourceTree = "<group>"; };
 		FD55EBBC1F8E20C000CC667D /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Carthage/Build/iOS/ObjectiveGit.framework; sourceTree = "<group>"; };
 		FDAD963E1F98452C003AB6E7 /* ObjectiveGit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectiveGit.framework; path = Libs/ObjectiveGit/iOS/ObjectiveGit.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -213,6 +227,7 @@
 		0867D691FE84028FC02AAC07 /* CordovaLib */ = {
 			isa = PBXGroup;
 			children = (
+				FD0B19A61F98804000C4EEC8 /* ObjectiveGit.framework.dSYM */,
 				7ED95D0E1AB9029B008C4574 /* Public */,
 				7ED95CF11AB9028C008C4574 /* Private */,
 				C0C01EB31E3911D50056E6CB /* Cordova */,
@@ -472,6 +487,7 @@
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
 				D2AAC07C0554694100DB518D /* Frameworks */,
+				FD0B19A81F98804F00C4EEC8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
