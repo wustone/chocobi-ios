@@ -1,6 +1,6 @@
 {
   "name": "chocobi-ios",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "chocobi-ios beta",
   "main": "bin/templates/scripts/cordova/Api.js",
   "repository": {
